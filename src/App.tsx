@@ -83,7 +83,9 @@ function App() {
             </div>
             
             <button className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-6 border-2 border-red-500 hover:border-red-400 transition-all duration-300 text-lg uppercase">
-              PEGAR TÁTICA RÁPIDA
+              <a href="https://app.pushinpay.com.br/service/pay/9F70A615-2DDA-47F7-8628-9D11CBE2DA2A" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                PEGAR TÁTICA RÁPIDA
+              </a>
             </button>
           </div>
 
@@ -118,7 +120,9 @@ function App() {
             </div>
             
             <button className="w-full bg-yellow-600 hover:bg-yellow-700 text-black font-bold py-4 px-6 border-2 border-yellow-500 hover:border-yellow-400 transition-all duration-300 text-lg uppercase">
-              PEGAR HACK VISUAL
+              <a href="https://app.pushinpay.com.br/service/pay/9F70A727-AA43-4AFD-AD1A-25521355FCB7" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                PEGAR HACK VISUAL
+              </a>
             </button>
           </div>
 
@@ -153,7 +157,9 @@ function App() {
             </div>
             
             <button className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-6 border-2 border-red-500 hover:border-red-400 transition-all duration-300 text-lg uppercase">
-              PEGAR INFILTRAÇÃO IA
+              <a href="https://app.pushinpay.com.br/service/pay/9F70A82B-5EE1-44D9-B018-7D9A6A06F83F" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                PEGAR INFILTRAÇÃO IA
+              </a>
             </button>
           </div>
         </div>
@@ -174,6 +180,18 @@ function App() {
               <span className="text-green-400">Mas já são armas suficientes pra multiplicar resultado com IA</span>
             </div>
           </div>
+        </div>
+
+        {/* Not Interested Button */}
+        <div className="max-w-4xl mx-auto mb-12 text-center">
+          <a 
+            href="https://cofre-digital-pied.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block bg-gray-700 hover:bg-gray-600 text-gray-300 hover:text-white font-bold py-3 px-8 border-2 border-gray-600 hover:border-gray-500 transition-all duration-300 text-lg uppercase"
+          >
+            NÃO TENHO INTERESSE
+          </a>
         </div>
 
         {/* Final Warning */}
